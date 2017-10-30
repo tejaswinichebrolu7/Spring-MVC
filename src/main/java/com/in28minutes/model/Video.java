@@ -10,6 +10,10 @@ public class Video {
 	private Date targetDate;
 	private boolean isDone;
 	
+	public Video() {
+		super();
+	}
+
 	public Video(int id, String user, String desc, Date targetDate, boolean isDone) {
 		super();
 		this.id = id;

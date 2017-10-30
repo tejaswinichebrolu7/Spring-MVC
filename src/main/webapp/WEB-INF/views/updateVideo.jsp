@@ -9,15 +9,15 @@
 <body>
 
 	<div class="container">
-	<h3>Add a video</h3>
+	<h3>Update video</h3>
 	
-		<form action="/addVideo" method="post" class="form-inline">
+		<form action="/updateVideo" method="post" class="form-inline">
 			<fieldset class="form-group">
 				<label>Description</label>
 				<input name="desc" type="text" class="form-control" required="required" minlength="10"/>
 			</fieldset>
 		
-			<button type="submit" class="btn btn-success">Add</button>
+			<button type="submit" class="btn btn-success">Update</button>
 			
 		</form>
 		

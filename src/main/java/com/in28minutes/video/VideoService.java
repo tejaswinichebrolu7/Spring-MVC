@@ -33,6 +33,19 @@ public class VideoService {
 	public void addVideo(String name, String desc, Date targetDate, boolean isDone) {
 		videos.add(new Video(++videoCount, name, desc, targetDate, isDone));
 	}
+	
+	public Video retrieveVideo(int id) {
+		for (Video video : videos) {
+			if (video.getId() == id)
+				return video;
+		}
+		return null;
+	}
+	
+	public void updateVideo(Video video) {
+		videos.remove(video);
+		videos.add(video);
+	}
 
 	public void deleteVideo(int id) {
 		Iterator<Video> iterator = videos.iterator();
