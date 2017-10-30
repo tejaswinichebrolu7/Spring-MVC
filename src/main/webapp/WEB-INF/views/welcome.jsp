@@ -3,6 +3,6 @@
 <title>Yahoo!!</title>
 </head>
 <body>
-Welcome ${name} and password is ${password}
+Welcome ${name}. You are now authenticated. <a href="/videos">Click here</a> to start maintaining your videos
 </body>
 </html>
