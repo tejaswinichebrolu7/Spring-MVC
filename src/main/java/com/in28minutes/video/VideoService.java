@@ -42,10 +42,11 @@ public class VideoService {
 		return null;
 	}
 	
-	public void updateVideo(Video video) {
-		videos.remove(video);
-		videos.add(video);
-	}
+	public void updateVideo(Video video,int id, String desc) {
+		if (video.getId() == id){
+			video.setDesc(desc);
+		}
+	}	
 
 	public void deleteVideo(int id) {
 		Iterator<Video> iterator = videos.iterator();

@@ -39,19 +39,18 @@ public class VideoController {
 		return "redirect:/videos";
 	}
 	
-/*	@RequestMapping(value = "/updateVideo", method = RequestMethod.GET)
+	@RequestMapping(value = "/updateVideo", method = RequestMethod.GET)
 	public String updateVideo(@RequestParam int id, ModelMap model) {
 		model.addAttribute("videos", service.retrieveVideo(id));
 		return "updateVideo";
 	}
 	
 	@RequestMapping(value = "/updateVideo", method = RequestMethod.POST)
-	public String updateVideoDetails(@RequestParam String desc, ModelMap model) {
-		Video video = new Video();
-		video.setDesc(desc); 
-		service.updateVideo(video); 
+	public String updateVideoDetails(@RequestParam String desc,@RequestParam int id, ModelMap model) {
+		Video video = service.retrieveVideo(id); 
+		service.updateVideo(video,id,desc); 
 		return "redirect:/videos";
-	}*/
+	}
 	
 	@RequestMapping(value = "/deleteVideo", method = RequestMethod.GET)
 	public String deleteVideo(@RequestParam int id) {

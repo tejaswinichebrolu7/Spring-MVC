@@ -12,9 +12,10 @@
 	<h3>Update video</h3>
 	
 		<form action="/updateVideo" method="post" class="form-inline">
+			<input name="id" type="hidden" value="${videos.id}"/>
 			<fieldset class="form-group">
 				<label>Description</label>
-				<input name="desc" type="text" class="form-control" required="required" minlength="10"/>
+				<input name="desc" type="text" class="form-control" required="required" minlength="10" value="${videos.desc}"/>
 			</fieldset>
 		
 			<button type="submit" class="btn btn-success">Update</button>
