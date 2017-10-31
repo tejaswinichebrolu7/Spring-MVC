@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="426" started-at="2017-10-31T10:58:58Z" finished-at="2017-10-31T10:58:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="426" started-at="2017-10-31T10:58:58Z" finished-at="2017-10-31T10:58:58Z">
+      <class name="com.in28minutes.login.LoginServiceTest">
+        <test-method status="PASS" signature="beforeTests()[pri:0, instance:com.in28minutes.login.LoginServiceTest@2c0b4c83]" name="beforeTests" is-config="true" duration-ms="73" started-at="2017-10-31T16:28:58Z" finished-at="2017-10-31T16:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTests -->
+        <test-method status="PASS" signature="testValidateUserWithInValidPassword()[pri:0, instance:com.in28minutes.login.LoginServiceTest@2c0b4c83]" name="testValidateUserWithInValidPassword" duration-ms="10" started-at="2017-10-31T16:28:58Z" finished-at="2017-10-31T16:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateUserWithInValidPassword -->
+        <test-method status="PASS" signature="testValidateUserWithInValidUser()[pri:0, instance:com.in28minutes.login.LoginServiceTest@2c0b4c83]" name="testValidateUserWithInValidUser" duration-ms="2" started-at="2017-10-31T16:28:58Z" finished-at="2017-10-31T16:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateUserWithInValidUser -->
+        <test-method status="PASS" signature="testValidateUserWithInValidUserAndPassword()[pri:0, instance:com.in28minutes.login.LoginServiceTest@2c0b4c83]" name="testValidateUserWithInValidUserAndPassword" duration-ms="2" started-at="2017-10-31T16:28:58Z" finished-at="2017-10-31T16:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateUserWithInValidUserAndPassword -->
+        <test-method status="PASS" signature="testValidateUserWithValidDetails()[pri:0, instance:com.in28minutes.login.LoginServiceTest@2c0b4c83]" name="testValidateUserWithValidDetails" duration-ms="3" started-at="2017-10-31T16:28:58Z" finished-at="2017-10-31T16:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidateUserWithValidDetails -->
+      </class> <!-- com.in28minutes.login.LoginServiceTest -->
+      <class name="com.in28minutes.video.VideoServiceTest">
+        <test-method status="PASS" signature="beforeTests()[pri:0, instance:com.in28minutes.video.VideoServiceTest@78525ef9]" name="beforeTests" is-config="true" duration-ms="184" started-at="2017-10-31T16:28:58Z" finished-at="2017-10-31T16:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTests -->
+        <test-method status="PASS" signature="testAddVideo()[pri:0, instance:com.in28minutes.video.VideoServiceTest@78525ef9]" name="testAddVideo" duration-ms="1" started-at="2017-10-31T16:28:58Z" finished-at="2017-10-31T16:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddVideo -->
+        <test-method status="PASS" signature="testDeleteVideo()[pri:0, instance:com.in28minutes.video.VideoServiceTest@78525ef9]" name="testDeleteVideo" duration-ms="23" started-at="2017-10-31T16:28:58Z" finished-at="2017-10-31T16:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteVideo -->
+        <test-method status="PASS" signature="testRetrieveVideoWithNoVideo()[pri:0, instance:com.in28minutes.video.VideoServiceTest@78525ef9]" name="testRetrieveVideoWithNoVideo" duration-ms="3" started-at="2017-10-31T16:28:58Z" finished-at="2017-10-31T16:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRetrieveVideoWithNoVideo -->
+        <test-method status="PASS" signature="testRetrieveVideoWithVideo()[pri:0, instance:com.in28minutes.video.VideoServiceTest@78525ef9]" name="testRetrieveVideoWithVideo" duration-ms="19" started-at="2017-10-31T16:28:58Z" finished-at="2017-10-31T16:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRetrieveVideoWithVideo -->
+        <test-method status="PASS" signature="testRetrieveVideos()[pri:0, instance:com.in28minutes.video.VideoServiceTest@78525ef9]" name="testRetrieveVideos" duration-ms="4" started-at="2017-10-31T16:28:58Z" finished-at="2017-10-31T16:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRetrieveVideos -->
+        <test-method status="PASS" signature="testUpdateVideo()[pri:0, instance:com.in28minutes.video.VideoServiceTest@78525ef9]" name="testUpdateVideo" duration-ms="13" started-at="2017-10-31T16:28:58Z" finished-at="2017-10-31T16:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateVideo -->
+      </class> <!-- com.in28minutes.video.VideoServiceTest -->
+      <class name="com.in28minutes.model.VideoTest">
+        <test-method status="PASS" signature="beforeTests()[pri:0, instance:com.in28minutes.model.VideoTest@2d0ecb24]" name="beforeTests" is-config="true" duration-ms="2" started-at="2017-10-31T16:28:58Z" finished-at="2017-10-31T16:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTests -->
+        <test-method status="PASS" signature="testDesc()[pri:0, instance:com.in28minutes.model.VideoTest@2d0ecb24]" name="testDesc" duration-ms="1" started-at="2017-10-31T16:28:58Z" finished-at="2017-10-31T16:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDesc -->
+        <test-method status="PASS" signature="testId()[pri:0, instance:com.in28minutes.model.VideoTest@2d0ecb24]" name="testId" duration-ms="1" started-at="2017-10-31T16:28:58Z" finished-at="2017-10-31T16:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testId -->
+        <test-method status="PASS" signature="testTargetDate()[pri:0, instance:com.in28minutes.model.VideoTest@2d0ecb24]" name="testTargetDate" duration-ms="1" started-at="2017-10-31T16:28:58Z" finished-at="2017-10-31T16:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTargetDate -->
+        <test-method status="PASS" signature="testUser()[pri:0, instance:com.in28minutes.model.VideoTest@2d0ecb24]" name="testUser" duration-ms="2" started-at="2017-10-31T16:28:58Z" finished-at="2017-10-31T16:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUser -->
+        <test-method status="PASS" signature="testisDone()[pri:0, instance:com.in28minutes.model.VideoTest@2d0ecb24]" name="testisDone" duration-ms="1" started-at="2017-10-31T16:28:58Z" finished-at="2017-10-31T16:28:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testisDone -->
+      </class> <!-- com.in28minutes.model.VideoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
